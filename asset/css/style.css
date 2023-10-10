@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Nunito:wght@200;300;400;500&display=swap');
+
+.hero-image {
+   padding-bottom: 200px;
+   background-position: top;
+    background-image: url('asset/image/oshine-lifestyle-13.jpg');
+}
+.main {
+    display: flex;
+}
+.hero-icon {
+    display: flex;
+    color: white;
+    /* width: ; */
+}
+.build {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.build H1{
+font: 200 60px "Nunito","Open Sans","Arial",sans-serif;
+color: #fff;
+line-height: 74px;
+letter-spacing: 0px;
+text-transform: none;
+}
+.hero-text {
+    width: 42%;
+    height: auto;
+    font-size: 18px;
+    line-height: 32px;
+}
+/* .btn {
+    --bs-btn-font-size: 0.7rem;
+} */
+.btn {
+    --bs-btn-font-size: 0.7rem;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-color:  #28d1a2;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.social-icon img, svg {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.brand p {
+    font-style: italic;
+}
+.oshine-descrip {
+    width: 40%;
+    height: auto;
+}
+.brand-sect span {
+    line-height: 32px;
+    font-size: 18px;
+}
+.brand-sect{
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+.brand-sect span p{
+    color: #979797;
+}
+.btn-color{
+    background-color: #28d1a2;
+    color: white;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #28d1a2;
+
+}
+.design-sect{
+    background-color: #F4F4F4;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.stunning span h3{
+    font: 200 38px "Nunito","Open Sans","Arial",sans-serif;
+    color:#222222;
+    line-height: 52px;
+
+}
+span p{
+   
+    color:#979797;
+}
+.stunning span p{
+    font-style: italic;
+}
+.quality-title span h5 {
+    font: 300 14px "Nunito","Open Sans","Arial","sans-serif";
+
+}
+.quality-text {
+    width: 90%;
+    height: auto;
+}
+.recent-works{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.works span h3{
+    font: 200 38px "Nunito","Open Sans","Arial",sans-serif;
+    color:#222222;
+    line-height: 52px;
+}
+.works-text span p{
+    font-style: italic;
+    color:#979797;
+}
+
+.works-contain{
+    
+    height: auto;
+    background-color: transparent;
+        
+}
+
+.img-class img{
+    width: 300px;
+    margin-left: 18px;
+    margin-top:40px ;
+   
+}
+.services span h3{
+    font: 200 38px "Nunito","Open Sans","Arial",sans-serif;
+    color:#222222;
+    line-height: 52px;
+}
+
+.services-title{
+    margin-top: 50px;
+}
+
+/* .qality-all{
+    margin-top: 50px;
+} */
+
+.quality-contain{
+    margin-top: 50px;
+}
+.Iphone-mockup img{
+    height: 690px;
+    width: 374px;
+}
+.card img {
+    width: 150px;
+}
+
+.testimonial-section {
+    background-color: #F4F4F4;
+    height: auto;
+    
+}
+
+.testimonial-title p {
+    color: #7C7C7C;
+    font-family: 'Crimson Text', serif;
+}
+.testimonial-title h1 {
+    color: #3C3C3C;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+
+}
+.card {
+    --bs-card-border-color: white;
+    --bs-card-border-radius: 0px;
+}
+.card .title {
+    font: 12px'Nunito';
+}
+.card span p{
+    font: 18px 'Crimson Text';
+    line-height: 32.4px;
+}
+.card p {
+    color: #808088;
+    font: 'Nunito';
+    font-size: 16px;
+    line-height: 28px;
+    
+}
+.card .card-width {
+    width: 90%;
+}
+.bck-img2{
+   background-position: top;
+   padding-bottom: 80px;
+   padding-top: 80px;
+
+}
+
+.touch{
+    display: flex;
+    gap: 3rem;
+    margin-left:300px ;
+    
+}
+.touch span h1{
+    color: #fff;
+    font: 200 38px "Nunito","Open Sans","Arial",sans-serif;;
+    line-height: 47px;
+}
+
+h6{
+    color: #222222;
+    line-height: 22px;
+    font: 300 13px "Nunito","Open Sans","Arial",sans-serif;;
+}
+.footer-text{
+    color: #757575;
+    line-height: 22px;
+    font: 200 15px "Nunito","Open Sans","Arial",sans-serif;;
+}
+
+@media  screen and (max-width: 375px) and (min-width: 320px) {
+
+    .Iphone-mockup img {
+        width: 250px;
+        height: auto;
+    }
+
+    .works-contain{
+        width:300px;
+        height: auto;
+        background-color: transparent;
+            
+    }
+
+    .img-class img {
+        width: 250px;
+        margin-left: 18px;
+        margin-top: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .Iphone-mockup img{    
+        width: 220px;
+        height: 490px;
+
+
+    }
+    .quality-space {
+        margin-bottom: 10px !important;
+    }
+    .quality-space-top{
+        margin-top: 5px !important;
+    }
+
+    .quality-text {
+        width: 100%;
+        height: auto;
+    }
+    .quality-contain{
+        margin-top: 20px !important;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 400px;
+            height: 200px;
+            border: 2px;
+        }
+        .img-slider{
+            width: 50%;
+            margin: 50px auto;
+    
+        }
+
+        .img-box{
+            width: 100%;
+        }
+
+        .btn{
+            background-color: #fde;
+            border-radius: 2px;
+            border: none;
+            width: 100px;
+            padding: 5px;
+        }
+
+        .btn:hover{
+            background-color: yellow;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <!-- <div>
+        <p id="click" style="color: blue;">I am a developer</p>
+        <img src="asset/image/desktop.jpg" style="width: 200px; height: 200px;">
+        <button style="color: blue;">click me </button>
+    </div> -->
+    
+
+<!-- Img slider -->
+    <div class="img-slider">
+        <div class="img-box" >
+            <img src="asset/image/iphone6.jpg" alt="img" class="img">
+
+        </div>
+
+        <div >
+             <button class="btn" onclick="prev()">Prev</button>
+             <button class="btn" onclick="next()">Next</button>
+        </div>
+
+
+    </div>
+
+    <script src ="test.js"></script>
+</body>
+</html>
